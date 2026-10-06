@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "diagrams": [
+    {
+      "id": "figure-0e83982cf6-01",
+      "page": "profile/README.md",
+      "source": "docs/diagrams/figure-0e83982cf6-01.mmd",
+      "sourceSha256": "0a7beba7b274955a979dd62787f6215c5ab817cb1873df633aeccc4fb56ab30a",
+      "origin": "profile/README.md",
+      "originDiagram": 1,
+      "originDiagramSha256": "5134965a458655986df2ff5631a7865bbe3c8e74a51100f3439b513168830df4"
+    }
+  ]
+}

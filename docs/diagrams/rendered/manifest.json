@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "renderer": "mermaid@11.17.2",
+  "style": "leximeet-blue-round-v1",
+  "tokens": {
+    "light": {
+      "node": "#E4F2FF",
+      "text": "#0059B3",
+      "border": "#D1DCE8",
+      "line": "#8B99A8",
+      "label": "#F5FAFF",
+      "surface": "#FFFFFF",
+      "cluster": "#F8FBFE"
+    },
+    "dark": {
+      "node": "#203A53",
+      "text": "#C2E2FF",
+      "border": "#49637B",
+      "line": "#A0AFBF",
+      "label": "#24394B",
+      "surface": "#1B1B1F",
+      "cluster": "#20272F"
+    }
+  },
+  "diagrams": [
+    {
+      "source": "docs/diagrams/figure-0e83982cf6-01.mmd",
+      "sourceSha256": "0a7beba7b274955a979dd62787f6215c5ab817cb1873df633aeccc4fb56ab30a",
+      "outputs": {
+        "light": {
+          "path": "docs/diagrams/rendered/figure-0e83982cf6-01.light.svg",
+          "sha256": "66dde99a64eb8fd18ebfd0c16c792490a42826ff82bf974dbb73d14c2baa26a7"
+        },
+        "dark": {
+          "path": "docs/diagrams/rendered/figure-0e83982cf6-01.dark.svg",
+          "sha256": "fddb44c063c1a1ba99129d4b2689c74efec7f9a41daf6faa9c4df6bbd6c4d334"
+        }
+      }
+    }
+  ]
+}
