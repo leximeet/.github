@@ -6,14 +6,18 @@
 
 [开始使用](https://github.com/leximeet/leximeet.github.io/blob/main/docs/使用文档/快速开始.md) · [产品与功能](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/功能设计.md) · [整体架构](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/系统架构.md) · [参与开发](https://github.com/leximeet/leximeet.github.io/blob/main/docs/开发文档/开发入口.md)
 
+[GitHub 组织](https://github.com/leximeet) · [Gitee 组织](https://gitee.com/leximeet)
+
+两个平台提供相同项目的源码、文档和贡献入口。下载时查看所选平台的实际发行记录，并核对版本与校验值。
+
 ## 选择自己的使用方式
 
-| 你想做什么                         | 选择                                                             | 日常流程                                     |
-| ---------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| 整理单词、笔记和学习，使用系统通知 | [Desktop](https://github.com/leximeet/leximeet-desktop)          | 记录遇见 → 词库 → 六种练习 → 复习            |
-| 在浏览器内独立阅读和学习           | [Browser](https://github.com/leximeet/leximeet-browser) 独立运行 | 词卡 / 侧栏 / 浮球采集 → 浏览器工作区        |
-| 网页采集，桌面统一管理             | Browser 连接 Desktop                                             | 一键邀请、真实确认 → 查桌面资料 → 采集到桌面 |
-| 按词书系统学习                     | 可选学习规划                                                     | 目标 + 每天新学 / 复习 → 今日任务            |
+| 你想做什么                         | 选择                                                                                                                             | 日常流程                                     |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 整理单词、笔记和学习，使用系统通知 | Desktop · [GitHub](https://github.com/leximeet/leximeet-desktop) / [Gitee](https://gitee.com/leximeet/leximeet-desktop)          | 记录遇见 → 词库 → 六种练习 → 复习            |
+| 在浏览器内独立阅读和学习           | Browser 独立运行 · [GitHub](https://github.com/leximeet/leximeet-browser) / [Gitee](https://gitee.com/leximeet/leximeet-browser) | 词卡 / 侧栏 / 浮球采集 → 浏览器工作区        |
+| 网页采集，桌面统一管理             | Browser 连接 Desktop                                                                                                             | 一键邀请、真实确认 → 查桌面资料 → 采集到桌面 |
+| 按词书系统学习                     | 可选学习规划                                                                                                                     | 目标 + 每天新学 / 复习 → 今日任务            |
 
 积分 0–30 表示熟悉程度：首次达到 20 时完成初学，达到 30 时进入休息期。FSRS 提供自动复习的时间建议，你仍可随时主动练习。采集、普通阅读和发音本身不计分。详见[学习规则说明](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/数据与学习规则.md)。
 
@@ -45,16 +49,16 @@ flowchart LR
 
 ## 开源项目如何分工
 
-| 项目                                                              | 当前职责                                            | 适合贡献                           |
-| ----------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------- |
-| [Desktop](https://github.com/leximeet/leximeet-desktop)           | 桌面界面、剪贴板、通知、发音、本机连接网关          | UI、系统适配、应用交互             |
-| [Desktop Core](https://github.com/leximeet/leximeet-desktop-core) | Java / SQLite 事务、学习规则、FSRS、冻结判题和授权  | 领域规则、数据一致性、可靠恢复     |
-| [Browser](https://github.com/leximeet/leximeet-browser)           | 网页阅读器、独立应用服务、桌面 Reading/Capture 适配 | 扩展界面、网页兼容、独立与连接测试 |
-| [Dictionary](https://github.com/leximeet/leximeet-dictionary)     | 可校验的 Lite / Core / Full 公共资源，当前 0.0.3    | 数据质量、来源许可、可复现构建     |
-| [LMCP](https://github.com/leximeet/leximeet-connector-protocol)   | 本机连接的消息、权限、预算、回执和版本边界          | 接入文档、正反样例、适配器         |
-| [LMSP](https://github.com/leximeet/leximeet-sync-protocol)        | 2.0.0 独立设备云同步规划                            | 未来事件与冲突方案；尚无上线服务   |
-| [IDEA](https://github.com/leximeet/leximeet-idea)                 | IDE 插件工程骨架                                    | 后续编辑器词卡与采集；业务尚未实现 |
-| [文档站](https://github.com/leximeet/leximeet.github.io)          | 产品、使用、设计与开发的中文学习路径                | 例子、可读图解、真实操作说明       |
+| 项目                                                                                                                                       | 当前职责                                            | 适合贡献                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | ---------------------------------- |
+| Desktop · [GitHub](https://github.com/leximeet/leximeet-desktop) / [Gitee](https://gitee.com/leximeet/leximeet-desktop)                    | 桌面界面、剪贴板、通知、发音、本机连接网关          | UI、系统适配、应用交互             |
+| Desktop Core · [GitHub](https://github.com/leximeet/leximeet-desktop-core) / [Gitee](https://gitee.com/leximeet/leximeet-desktop-core)     | Java / SQLite 事务、学习规则、FSRS、冻结判题和授权  | 领域规则、数据一致性、可靠恢复     |
+| Browser · [GitHub](https://github.com/leximeet/leximeet-browser) / [Gitee](https://gitee.com/leximeet/leximeet-browser)                    | 网页阅读器、独立应用服务、桌面 Reading/Capture 适配 | 扩展界面、网页兼容、独立与连接测试 |
+| Dictionary · [GitHub](https://github.com/leximeet/leximeet-dictionary) / [Gitee](https://gitee.com/leximeet/leximeet-dictionary)           | 可校验的 Lite / Core / Full 公共资源，当前 0.0.3    | 数据质量、来源许可、可复现构建     |
+| LMCP · [GitHub](https://github.com/leximeet/leximeet-connector-protocol) / [Gitee](https://gitee.com/leximeet/leximeet-connector-protocol) | 本机连接的消息、权限、预算、回执和版本边界          | 接入文档、正反样例、适配器         |
+| LMSP · [GitHub](https://github.com/leximeet/leximeet-sync-protocol) / [Gitee](https://gitee.com/leximeet/leximeet-sync-protocol)           | 2.0.0 独立设备云同步规划                            | 未来事件与冲突方案；尚无上线服务   |
+| IDEA · [GitHub](https://github.com/leximeet/leximeet-idea) / [Gitee](https://gitee.com/leximeet/leximeet-idea)                             | IDE 插件工程骨架                                    | 后续编辑器词卡与采集；业务尚未实现 |
+| 文档站 · [GitHub](https://github.com/leximeet/leximeet.github.io) / [Gitee](https://gitee.com/leximeet/leximeet.github.io)                 | 产品、使用、设计与开发的中文学习路径                | 例子、可读图解、真实操作说明       |
 
 桌面与浏览器的接口不需要复制全部业务：LMCP 1.0.0 公开阅读、采集、连接控制和固定导航；学习规划、FSRS、练习和笔记编辑在所属工作区完成。各插件按实际实现注册自己的宿主能力，并逐项取得授权。[部署与扩展](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/部署与扩展.md)说明如何接入另一个插件。
 

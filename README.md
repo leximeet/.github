@@ -1,6 +1,6 @@
 # 词遇组织入口
 
-此仓库维护 [LexiMeet GitHub 组织](https://github.com/leximeet)的公开首页，并提供各项目共用的贡献、安全和支持入口。产品运行代码和协议规范由各自仓库维护。
+词遇同时在 [GitHub](https://github.com/leximeet) 和 [Gitee](https://gitee.com/leximeet) 开源，两个平台地位相同。此仓库保存组织介绍与共用的贡献、安全和支持入口。`profile/README.md` 用于 GitHub 组织首页；Gitee 可直接阅读对应仓库文档，不假定平台使用同样的首页规则。产品运行代码和协议规范由各自仓库维护。
 
 ## 内容与阅读路径
 
@@ -30,6 +30,6 @@
 
 修改首页时同时核对真实项目 README 和当前路线，检查 Markdown 相对链接与远端仓库目标。不得加入尚未发布的下载 / 商店 / 云服务承诺、虚构维护者或联系邮箱，不上传私有资料和过程日志。完成后更新 CHANGELOG 与中文提交说明；推送和发布由维护者明确授权。
 
-本仓随正式 `1.0.0` 软件版本更新文档，不单独打产品版本标签。首次公开整理保留远端原始 `init commit`，将后续开发历史压缩为一个当前结果提交；完整开发历史在私有备份中保留，不随公开 main 推送。提交前运行 `npm ci --ignore-scripts && npm run verify`；main、PR 与手动工作流检查链接、图表原字节和格式。步骤与后续版本原则见[维护与发布](docs/维护与发布.md)。
+本仓随 `1.0.0` 软件版本更新文档，不单独打产品版本标签。已公开的 main 保留原始 `init commit` 与整理后的结果提交；之后正常追加提交，不因增加平台重写历史。开发历史备份不进入公开分支。提交前运行 `npm ci --ignore-scripts && npm run verify`；main、PR 与手动工作流检查链接、图表原字节和格式。步骤与后续版本原则见[维护与发布](docs/维护与发布.md)。
 
 自有文档采用 [AGPL-3.0-only](LICENSE)。该许可只覆盖词遇自有内容；第三方依赖、词典来源、音频和引用资料保留原许可，不能用组织许可替换来源要求。见[文档站许可说明](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/隐私与许可.md)。
