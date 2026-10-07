@@ -1,8 +1,8 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leximeet/leximeet.github.io/main/docs/public/brand/logo-dark.png"><img src="https://raw.githubusercontent.com/leximeet/leximeet.github.io/main/docs/public/brand/logo-light.png" alt="词遇 LexiMeet" width="210"></picture></p>
 
-# 在语境里遇见单词，在练习里留下记忆
 
-**词遇 LexiMeet** 是一组本地优先的单词学习工具。阅读时保存单词所在的真实句子，学习时主动回忆。桌面端提供完整工作区，浏览器插件保留轻便的网页入口，方便你遇见和记录单词。你也可以不设置学习计划，只把它当作自己的单词本。
+**词遇 LexiMeet** 是一组开放协议支持各端软件采集的单词学习工具。阅读时保存单词所在的真实句子，学习时主动回忆。
+桌面端提供完整工作区作为收集器，插件端保留轻便的入口和功能支持也支持独立于桌面端运行。
 
 [开始使用](https://github.com/leximeet/leximeet.github.io/blob/main/docs/使用文档/快速开始.md) · [产品与功能](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/功能设计.md) · [整体架构](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/系统架构.md) · [参与开发](https://github.com/leximeet/leximeet.github.io/blob/main/docs/开发文档/开发入口.md)
 
@@ -21,7 +21,7 @@
 
 积分 0–30 表示熟悉程度：首次达到 20 时完成初学，达到 30 时进入休息期。FSRS 提供自动复习的时间建议，你仍可随时主动练习。采集、普通阅读和发音本身不计分。详见[学习规则说明](https://github.com/leximeet/leximeet.github.io/blob/main/docs/设计文档/数据与学习规则.md)。
 
-## 连接时，资料属于谁
+## 插件连接
 
 浏览器独立资料 **A** 与桌面资料 **B** 分别保存在各自工作区中。连接后，浏览器封存 A，网页读写改用桌面资料，新增的 **C** 也留在桌面。明确断开后恢复 A，桌面保留 B+C。临时失联时，浏览器等待连接恢复，不会自动切换资料；本机连接也不会自动合并两份历史。
 
